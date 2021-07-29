@@ -1,0 +1,10 @@
+__pycache__
+.vscode
+.env
+prod.env
+test.env
+*.db
+/data
+*.raw
+*.session
+*.session-journal
