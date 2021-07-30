@@ -38,8 +38,8 @@ wh_max_connections = 100
 admins = [int(i) for i in environ.get("ADMINS").split(",")]
 
 BOT_COMMANDS: Dict[str, str] = {
-    "/start": "Get your account info",
-    "/id [tg_id]": "Get any id creation date",
+    "/me": "Get your account info",
+    "/id": "[tg_id] Get any id creation date",
 }
 
 bot = Bot(token=token, validate_token=True,

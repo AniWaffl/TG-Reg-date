@@ -1,1 +1,2 @@
+import addons.set_bot_commands
 from .creation_date import creation_date
